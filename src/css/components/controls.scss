@@ -1,0 +1,20 @@
+#controls {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px; 
+    width: auto; 
+}
+
+@media only screen and (max-width: 650px) {
+    #controls {
+        display: flex;
+      flex-direction: column;
+      top: 65%;
+      z-index: 2300;
+    }
+  }
